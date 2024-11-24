@@ -2,6 +2,7 @@ export const Zone = {
   Stack: "stack",
   Pile: "pile",
   Hand: "hand",
+  You: "you",
 } as const;
 
 export type Zone = (typeof Zone)[keyof typeof Zone];

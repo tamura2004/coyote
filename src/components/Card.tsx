@@ -18,7 +18,7 @@ export const Card = ({ id, name }: Props) => {
       sx={{
         transform: CSS.Translate.toString(transform),
         cursor: isDragging ? "grabbing" : "grab",
-        width: "52px",
+        width: "53px",
         height: "70px",
         border: "2px solid darkgray",
         borderRadius: "4px",
