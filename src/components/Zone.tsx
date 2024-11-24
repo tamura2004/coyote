@@ -27,6 +27,7 @@ export const Zone = ({ id, label, height, children, width }: Props) => {
         border: "1px solid lightgray",
         height,
         padding: "8px",
+        touchAction: "none",
       }}
     >
       <Grid size={{xs:12}}>
